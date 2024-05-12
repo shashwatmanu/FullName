@@ -52,7 +52,7 @@ else setShouldDisplay(false);
         <input type='text' id='last' ></input>
         {lastNameError?(<div>Please fill out this field</div>):""}
         <br/>
-        <button>Submit</button>
+        <button type='submit'>Submit</button>
         {shouldDisplay?(<div><span style={{fontWeight:'600'}}>Full name:</span> {firstName} {lastName}</div>):""}
     </form>
     </>
